@@ -134,3 +134,9 @@
 .bg-modalform ::-webkit-scrollbar-thumb {
     background: #0e7a71;
 }
+@media screen and (max-width: 1085px)
+{
+    .app-form input[type=text], .app-form input[type=email]{
+        width: 80%;
+    }
+}
