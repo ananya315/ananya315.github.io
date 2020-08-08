@@ -139,4 +139,7 @@
     .app-form input[type=text], .app-form input[type=email]{
         width: 80%;
     }
+    #textarea{
+        width: 80%;
+    }
 }
