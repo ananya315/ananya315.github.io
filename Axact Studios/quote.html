@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Quote</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="quote.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/ed793ec094.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <h5 class="my-0 mr-md-auto font-weight-normal ml-5" data-aos="slide-down"><img src="logo.jpg" alt="Logo"
+                    style="border-radius: 50%; width: 3rem; margin-right: 1rem;"> Axact Studios</h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto mr-5" data-aos="slide-down">
+                <li class="nav-item  pr-3">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="review.html">Reviews</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="heading">
+        <img src="appdev.jpg" data-aos="fade-right">
+        <h2 style="font-family: 'Oswald', sans-serif; letter-spacing: 2px;" data-aos="fade-left">Have an idea for a mobile app?</h2>
+        <p data-aos="fade-left">Answer the questionnaire to estimate the app idea, see the price of your future app and get started with
+            the development.</p>
+        <hr>
+    </div>
+
+    <div class="quotecontent">
+        <div class="total" >Quote Estimate:<br><span id="total">Rs. 0</span></div>
+        <div class="question" data-aos="fade-up">
+            <h3>Which platform do you want?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p>Android</p>
+                        <img src="android.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p>IOS</p>
+                         <img src="ios.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>What is your app about?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p>Hardware, IoT</p>
+                        <img src="iot.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;" >Ecommerce/ Retail</p>
+                        <img src="ecommerce.jpg" style="margin-left: 25%; margin-top: -10%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Booking</p>
+                        <img src="book.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Education</p>
+                        <img src="edu.jpg" style="margin-left: 10%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Social Networking</p>
+                        <img src="sn.jpg" style="margin-left: 15%;width: 100px;height: 100px; margin-top: -13%;">
+                        <p class="cost" style="margin-top: -10%;">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Events</p>
+                        <img src="event.jpg" >
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn" style="top:10px;">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Tools/ Utilities</p>
+                        <img src="tools.jpg" style="margin-left: 20%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Medtech/ Healthcare</p>
+                        <img src="health.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Artifical Intelligence (AI)</p>
+                        <img src="ai.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Maps & Navigation</p>
+                        <img src="map.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Lifestyle & Hobby</p>
+                        <img src="life.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Others</p>
+                        <img src="other.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Which design do you prefer?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Basic</p>
+                        <img src="house1.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Polished</p>
+                        <img src="house2.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">I already have</p>
+                        <img src="already.jpg" style="margin-left: 20%;">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Choose devices for your app</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Smartphones</p>
+                        <img src="sphone.jpg" style="margin-left: 20%;">
+                        <p class="cost">Rs.100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Tablets</p>
+                        <img src="tablet.jpg" >
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox">
+                    <span class="radio-btn" class="option" value="100">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Smartwatch</p>
+                        <img src="swatch.jpg" style="margin-left: 10%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Desktop</p>
+                        <img src="desk.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Do users have to login?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Via E-mail</p>
+                        <img src="mail.jpg" style="margin-left: 15%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Via Social Networking</p>
+                        <img src="sn1.jpg" style="margin-left: 25%; margin-top: -10%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Do you need built-in payments?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Payment processing</p>
+                        <img src="payment.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">In-App Purchasing</p>
+                        <img src="payment1.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg" style="margin-top: 35%;">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Do you need geolocation feature?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Simple</p>
+                        <img src="simple.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Custom</p>
+                        <img src="custom.jpg" >
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Will you have a newsfeed?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Simple</p>
+                        <img src="news.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Custom</p>
+                        <img src="cnews1.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Will your project have any list of items or goods?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Yes-simple</p>
+                        <img src="up.jpg" style="width: 100px;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Yes - advanced</p>
+                        <img src="upadv.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Do you need a communications feature?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Simple (User-to-user)</p>
+                        <img src="communication.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Advanced</p>
+                        <img src="communication1.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Choose the type of content?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Photo</p>
+                        <img src="photo.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Video/ Audio</p>
+                        <img src="video.jpg" style="margin-left: 25%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Streaming</p>
+                        <img src="stream.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>How will you engage with your users?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Ratings</p>
+                        <img src="rating.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Polls/ Forms</p>
+                        <img src="poll.jpg" style="margin-left: 15%;">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Do you need push notifications?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Basic</p>
+                        <img src="user.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Custom</p>
+                        <img src="avatar.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>What kind of analytics data will you track?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Basic</p>
+                        <img src="data.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Advanced</p>
+                        <img src="dataadv.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Need a user managing tool?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Basic</p>
+                        <img src="simple.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Custom</p>
+                        <img src="custom.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">None</p>
+                        <img src="none1.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="question" data-aos="fade-up">
+            <h3>Do you need an admin panel?</h3>
+            <div class="radio-btns">
+                <label class="custom">
+                    <input type="checkbox" class="option" value="100">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">Yes</p>
+                        <img src="yes.jpg">
+                        <p class="cost">Rs. 100</p>
+                    </span>
+                </label>
+                <label class="custom">
+                    <input type="checkbox" class="option" value="0">
+                    <span class="radio-btn">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <p style="margin-top: 6%;">No</p>
+                        <img src="no.jpg">
+                        <p class="cost">Rs. 0</p>
+                    </span>
+                </label>
+                <hr style="margin-bottom:5%;">
+            </div>
+        </div>
+
+        <div class="app-form" data-aos="flip-left">
+            <h2>Almost Done!</h2>
+            <p style="margin-bottom: 8%;">Let us know where we should send your complete estimation</p>
+            <form>
+                <input type="text" placeholder="First Name"><br>
+                <input type="text" placeholder="Last Name"><br>
+                <input type="text" placeholder="Company"><br>
+                <input type="text" placeholder="Job Title"><br>
+                <input type="text" placeholder="Phone Number"><br>
+                <input type="email" placeholder="E-mail"><br>
+                <textarea name="project-information" cols="10" rows="4"
+                    placeholder="Provide some information about your project"
+                    style="padding: 5px 5px;border: 1.5px solid teal; width: 40%;"></textarea> <br>
+                <h4 style="color: teal;">When will you like to start?</h4>
+                <input type="radio" name="name" id="nameA" value="A">
+                <label for="A">Within next few weeks</label><br>
+                <input type="radio" name="name" id="nameA" value="B">
+                <label for="V">Within next few months</label><br>
+                <input type="radio" name="name" id="nameA" value="C">
+                <label for="C">I don't know</label><br>
+                <button type="submit">Get the quote</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer" data-aos="slide-up">
+
+        <div class="inner" data-aos="slide-down">
+            <div class="item">
+                <h3>Axact Studios</h3>
+                <p>Our goal is to create products and services that you and your customer are satisfied
+                    with. That is why we are constantly working on our skills to provide you the best we can.
+                    Listen to what our top clients say.</p>
+            </div>
+
+
+            <div class="item">
+                <h3>Quick Links</h3>
+                <div class="border"></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="item" style="font-family: sans-serif;">
+                <h3>Contact us</h3>
+                <div class="border"></div>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"> Jaypee Institute of Information Technology</i>
+                    </li>
+                    <li><i class="fa fa-phone" aria-hidden="true"> 1234567</i></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"> support@axactstudios.com</i></li>
+                </ul>
+                <div class="social">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            Copyright &copy; Axact Studios
+        </div>
+
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+    
+          $('.option').click(function () {
+            var total = 0;
+    
+            $('.option:checked').each(function () {
+              total += parseInt($(this).val());
+            });
+            $('#total').html('Rs. ' + total);
+          });
+        });
+      </script>
+    
+</body>
+
+</html>

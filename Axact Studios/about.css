@@ -1,0 +1,63 @@
+.about{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("office6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly; */
+
+}
+.head{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 30rem;
+    padding: 5px 5px;
+    color: rgb(2, 2, 39);
+    font-family: 'Rowdies', cursive;
+}
+.line{
+    border: 2px solid rgb(35, 6, 161);
+    background-color: rgb(35, 6, 161);
+    width: 60%;
+   
+}
+.info1{
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: rgb(4, 4, 90);
+    width: 70%;
+    padding: 5px 5px;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.team{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.workinfo{
+    width: 20rem;
+    margin-top: 4%;
+    margin-bottom: 3%; 
+    font-family: 'Playfair Display', serif;  
+}
+.member{
+    width: 20rem;
+    text-align: center;
+    padding: 15px 15px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin-bottom: 5%;
+    box-shadow:  5px 5px rgb(169, 169, 238);
+}
